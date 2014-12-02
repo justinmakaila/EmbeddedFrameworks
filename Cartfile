@@ -1,0 +1,2 @@
+# Require the latest version of RAC
+github "ReactiveCocoa/ReactiveCocoa" == 3.0.2
