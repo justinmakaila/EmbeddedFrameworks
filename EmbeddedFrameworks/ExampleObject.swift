@@ -9,7 +9,12 @@
 import Foundation
 import SwiftyJSON
 import Alamofire
+import Swell
 
 class ExampleObject {
-
+    let logger = Swell.getLogger("ExampleObjectLogger")
+    
+    init() {
+        logger.debug("Successfully initialized")
+    }
 }
