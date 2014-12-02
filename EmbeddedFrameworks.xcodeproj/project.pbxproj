@@ -14,6 +14,10 @@
 		7C3CAE411A2E699C00FDFE9E /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 7C3CAE401A2E699C00FDFE9E /* Cartfile */; };
 		7C3CAE431A2E6A8E00FDFE9E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C3CAE421A2E6A8E00FDFE9E /* Alamofire.framework */; };
 		7C3CAE441A2E6A9B00FDFE9E /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7C3CAE421A2E6A8E00FDFE9E /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7CED0EDB1A2E75470017F03F /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CED0EDA1A2E75470017F03F /* SwiftyJSON.framework */; };
+		7CED0EDC1A2E754D0017F03F /* SwiftyJSON.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7CED0EDA1A2E75470017F03F /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7CED0EDE1A2E772A0017F03F /* Swell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CED0EDD1A2E772A0017F03F /* Swell.framework */; };
+		7CED0EDF1A2E77310017F03F /* Swell.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7CED0EDD1A2E772A0017F03F /* Swell.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +37,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				7CED0EDF1A2E77310017F03F /* Swell.framework in CopyFiles */,
+				7CED0EDC1A2E754D0017F03F /* SwiftyJSON.framework in CopyFiles */,
 				7C3CAE441A2E6A9B00FDFE9E /* Alamofire.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,6 +55,8 @@
 		7C3CAE3E1A2E683200FDFE9E /* ExampleObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleObject.swift; sourceTree = "<group>"; };
 		7C3CAE401A2E699C00FDFE9E /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
 		7C3CAE421A2E6A8E00FDFE9E /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage.build/iOS/Alamofire.framework; sourceTree = SOURCE_ROOT; };
+		7CED0EDA1A2E75470017F03F /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage.build/iOS/SwiftyJSON.framework; sourceTree = SOURCE_ROOT; };
+		7CED0EDD1A2E772A0017F03F /* Swell.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swell.framework; path = Carthage.build/iOS/Swell.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +64,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CED0EDB1A2E75470017F03F /* SwiftyJSON.framework in Frameworks */,
 				7C3CAE431A2E6A8E00FDFE9E /* Alamofire.framework in Frameworks */,
+				7CED0EDE1A2E772A0017F03F /* Swell.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +139,8 @@
 		7C3CAE301A2E67E200FDFE9E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7CED0EDD1A2E772A0017F03F /* Swell.framework */,
+				7CED0EDA1A2E75470017F03F /* SwiftyJSON.framework */,
 				7C3CAE421A2E6A8E00FDFE9E /* Alamofire.framework */,
 			);
 			name = Frameworks;
@@ -441,6 +453,7 @@
 				7C3CAE041A2E66F000FDFE9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C3CAE051A2E66F000FDFE9E /* Build configuration list for PBXNativeTarget "EmbeddedFrameworksTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +462,7 @@
 				7C3CAE071A2E66F000FDFE9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
