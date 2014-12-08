@@ -17,4 +17,12 @@ class ExampleObject {
     init() {
         logger.debug("Successfully initialized")
     }
+    
+    func getSomething() {
+        RequestManager().get("", success: { result in
+            println(result)
+        }, failure: { error in
+            println(error)
+        })
+    }
 }
