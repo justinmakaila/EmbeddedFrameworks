@@ -12,6 +12,7 @@
 		7C3CADFF1A2E66F000FDFE9E /* EmbeddedFrameworksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3CADFE1A2E66F000FDFE9E /* EmbeddedFrameworksTests.swift */; };
 		7C3CAE3F1A2E683200FDFE9E /* ExampleObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3CAE3E1A2E683200FDFE9E /* ExampleObject.swift */; };
 		7C3CAE411A2E699C00FDFE9E /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 7C3CAE401A2E699C00FDFE9E /* Cartfile */; };
+		7C613FB71A36123100D5A44B /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C613FB61A36123100D5A44B /* RequestManager.swift */; };
 		7CBFA3271A2F8B9900595FEE /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBFA3241A2F8B9900595FEE /* Alamofire.framework */; };
 		7CBFA3281A2F8B9900595FEE /* Swell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBFA3251A2F8B9900595FEE /* Swell.framework */; };
 		7CBFA3291A2F8B9900595FEE /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBFA3261A2F8B9900595FEE /* SwiftyJSON.framework */; };
@@ -54,6 +55,7 @@
 		7C3CADFE1A2E66F000FDFE9E /* EmbeddedFrameworksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddedFrameworksTests.swift; sourceTree = "<group>"; };
 		7C3CAE3E1A2E683200FDFE9E /* ExampleObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleObject.swift; sourceTree = "<group>"; };
 		7C3CAE401A2E699C00FDFE9E /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
+		7C613FB61A36123100D5A44B /* RequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
 		7CBFA3241A2F8B9900595FEE /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage.build/iOS/Alamofire.framework; sourceTree = SOURCE_ROOT; };
 		7CBFA3251A2F8B9900595FEE /* Swell.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swell.framework; path = Carthage.build/iOS/Swell.framework; sourceTree = SOURCE_ROOT; };
 		7CBFA3261A2F8B9900595FEE /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage.build/iOS/SwiftyJSON.framework; sourceTree = SOURCE_ROOT; };
@@ -104,6 +106,7 @@
 			children = (
 				7C3CADF11A2E66F000FDFE9E /* EmbeddedFrameworks.h */,
 				7C3CAE3E1A2E683200FDFE9E /* ExampleObject.swift */,
+				7C613FB61A36123100D5A44B /* RequestManager.swift */,
 				7C3CADEF1A2E66F000FDFE9E /* Supporting Files */,
 				7C3CAE301A2E67E200FDFE9E /* Frameworks */,
 			);
@@ -256,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C3CAE3F1A2E683200FDFE9E /* ExampleObject.swift in Sources */,
+				7C613FB71A36123100D5A44B /* RequestManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

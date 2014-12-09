@@ -11,18 +11,22 @@ import SwiftyJSON
 import Alamofire
 import Swell
 
-class ExampleObject {
+public class ExampleObject {
     let logger = Swell.getLogger("ExampleObjectLogger")
     
-    init() {
+    public init() {
         logger.debug("Successfully initialized")
     }
     
-    func getSomething() {
+    public func getSomething() {
         RequestManager().get("", success: { result in
             println(result)
         }, failure: { error in
             println(error)
         })
+    }
+    
+    public func log<T>(object: T) {
+        self.logger.debug(object)
     }
 }
